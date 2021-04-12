@@ -1,0 +1,8 @@
+Conta Corrente,1,1390-90,1000,333,saque=1,deposito=2,transferencia=1
+Conta Corrente,2,1390-90,1000,111,saque=1,deposito=1,transferencia=2
+Conta Poupança,3,1590-90,1000,222,saque=1,deposito=2,transferencia=1
+Conta Corrente,4,1690-90,979.8,444,saque=1,deposito=1,transferencia=2
+Conta Corrente,5,1790-90,1000,555,saque=1,deposito=1,transferencia=1
+Conta Corrente,6,1390-90,1349.8000000000002,666,saque=5,deposito=13,transferencia=5
+Conta Corrente,7,1890-90,1479.1000000000004,777,saque=6,deposito=6,transferencia=2
+Conta Corrente,8,1990-90,749.6999999999999,888,saque=2,deposito=1,transferencia=2
