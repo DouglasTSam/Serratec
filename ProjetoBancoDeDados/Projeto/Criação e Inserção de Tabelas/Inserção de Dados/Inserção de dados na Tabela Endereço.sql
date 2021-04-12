@@ -1,0 +1,33 @@
+INSERT INTO ENDERECO
+
+(RUA, NUMERO, COMPLEMENTO, BAIRRO, CEP, CIDADE, ESTADO)
+
+VALUES('Est União industria', 10, '', 'CENTRO', '22.750-222', 'Petrópolis', 'RJ');
+ 
+
+INSERT INTO ENDERECO
+
+(RUA, NUMERO, COMPLEMENTO, BAIRRO, CEP, CIDADE, ESTADO)
+
+VALUES('Rua Frei Luiz Alevato', 102, '', 'CENTRO', '22.222-222', 'Petrópolis', 'RJ');
+ 
+
+INSERT INTO ENDERECO
+
+(RUA, NUMERO, COMPLEMENTO, BAIRRO, CEP, CIDADE, ESTADO)
+
+VALUES('Rua Bingen', 102, 'Ao lado do Bar da Neide', 'Bingen', '33.333-333', 'Petrópolis', 'RJ');
+ 
+
+INSERT INTO ENDERECO
+
+(RUA, NUMERO, COMPLEMENTO, BAIRRO, CEP, CIDADE, ESTADO)
+
+VALUES('Avenida Dom Pedro I,', 22, '', 'CENTRO', '44.444-444', 'Petrópolis', 'RJ');
+ 
+
+INSERT INTO ENDERECO
+
+(RUA, NUMERO, COMPLEMENTO, BAIRRO, CEP, CIDADE, ESTADO)
+
+VALUES('Rua Doutor Porciuncula', 12, 'Ponto final', 'CENTRO', '44.444-444', 'Petrópolis', 'RJ');

@@ -1,0 +1,47 @@
+.login,
+.image {
+  min-height: 100vh;
+  
+}
+
+
+.bg-image {
+  background-image: url('https://static.wixstatic.com/media/faa16a_a52a8fa3e6d84533b038b74834b7b81c~mv2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.login-heading {
+  font-weight: 300;
+}
+
+.btn-login {
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  padding: 0.75rem 1rem;
+  border-radius: 2rem;
+}
+
+.form-label-group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.form-label-group>input,
+.form-label-group>label {
+  border-radius: 2rem;
+}
+
+#error{
+  display:none;
+  color:red;
+}
+
+#errosenha{
+  display:none;
+  color:red;
+}
+#errousuario{
+  display:none;
+  color:red;
+}

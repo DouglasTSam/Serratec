@@ -1,0 +1,34 @@
+.profile-stars .fas {
+  color: gold;
+  margin-bottom: 2em;
+}
+.social-information {
+  display: inline;
+}
+.rounded-circle {
+  width: 6.5em;
+  height: 6.5em;
+}
+
+.profile-box {
+  box-shadow: 4px 4px 4px 4px #888888;
+  width: 100%;
+  margin-bottom: 4rem;
+  margin-top: 0.8rem;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+}
+
+.portfolio-modal .close {
+  position: absolute;
+  z-index: 1;
+  right: 0.5rem;
+  top: 1rem;
+  font-size: 3rem;
+  line-height: 3rem;
+  color: #f5a55b;
+  opacity: 1;
+}
+

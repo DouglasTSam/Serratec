@@ -1,0 +1,45 @@
+.corpo{
+   background-color:white;
+   font-size: 1rem;
+   font-weight: 400;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }  
+  input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }  
+
+#contatofade{
+  background-color: white;
+}
+.contato{
+  text-align: justify;
+  color: black;
+}
+.mapa{
+  margin-left: auto;
+  margin-right: auto;
+}
+.topo{
+  height: 10%;  
+}

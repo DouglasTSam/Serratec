@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <title>Login</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="sortcut icon" href="../media/favicon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+</head>
+
+<body>
+  <noscript>Você precisa ativar o JavaScript</noscript>   
+  <div class="container-fluid">
+    <div class="row">
+
+      <div class="d-none d-md-flex col-md-4 col-lg-6 bg-image"></div>
+      <div class="col-md-8 col-lg-6">
+        <div class="container mt-1">
+          <div class="row">
+            <div class="col-md-9 col-lg-8">
+              <a href="../index.html"> <i class="fa fa-arrow-left fa-3x text-dark"> </i></a>
+            </div>
+          </div>
+        </div>
+        <div class="login d-flex align-items-center py-5">
+          <div class="container">
+
+            <div class="row">
+              <div class="col-md-9 col-lg-8 mx-auto">
+                <h1 class="login-heading mb-5">Bem vindo!</h1>
+
+                <form name="login-form" action="../index.html">
+                  <div class="form-label-group">
+                    <input type="text" name="usuario" class="form-control" placeholder="Usuário" required autofocus />
+                  </div>
+                  <p id="errousuario">Campo obrigatório.</p>
+                  <div class="form-label-group">
+                    <input type="password" name="senha" class="form-control" placeholder="Senha" required />
+                  </div>
+                  <p id="errosenha">Campo obrigatório.</p>
+
+                  <p id="error">Usuário ou senha incorreto! tente novamente.</p>
+                  <button class="btn btn-lg btn-dark btn-block btn-login text-uppercase font-weight-bold mb-2"
+                    type="submit" onClick="doLogin(this.form)">Entrar</button>
+
+                  <div class="text-center">
+                    <a class="small" href="../register/register.html">Cadastre-se</a></div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="login.js"></script>
+</body>
+
+</html>

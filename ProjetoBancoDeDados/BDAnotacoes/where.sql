@@ -1,0 +1,1 @@
+select * from artista where nome  = 'Anitta'
